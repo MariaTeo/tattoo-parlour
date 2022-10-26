@@ -1,0 +1,71 @@
+{
+  "title": "Tattoo Parlour",
+  "logo": "image/path",
+  "navMenu": [
+    {
+      "content": "Home",
+      "path": "/",
+      "title": "This link is taking you to the home page"
+    },
+    {
+      "content": "Artist",
+      "path": "/artists",
+      "title": "This link is taking you to the page where the artists are presented"
+    },
+    {
+      "content": "Portfolio",
+      "path": "/portfolio",
+      "title": "This link is taking you to the portfolio page where you can find pictures with the work of the artists"
+    }
+  ],
+  "home": {
+    "homeHeroTitle": "The art of tattooing",
+    "homeHeroSubTitle": "The art of tattooing",
+    "heroImage": "The tools of tebori may seem primitive compared to modern tattoo machines, but the principle was the same",
+    "heroBottomImageList": [
+      {
+        "image": "path",
+        "description": "Tebori is the traditional Japanese method of hand tattooing that dates back to the 17th century in Japan, specifically from the Edo era, between 1600 and 1868."
+      },
+      {
+        "image": "path",
+        "description": "Literally 'hand-carved' tattoos. Artists used a slender bamboo or metal tool with a needle grouping attached to the tip to manually push ink beneath the top layers of skin, leaving a permanent mark for either decoration or punishment."
+      },
+      {
+        "image": "path",
+        "description": "Literally 'hand-carved' tattoos. Artists used the rods to manually push ink beneath the top layers of skin, leaving a permanent mark for either decoration or punishment."
+      }
+    ],
+    "homeTitle": "Tattoo designs and meaning",
+    "homeImageList": [
+      {
+        "title": "Oni Mask Tattoos",
+        "image": "path",
+        "description": [
+          "A synonym for an Oni mask would be that of demon whose origin is of a Hindu-Buddhist belief system.",
+          "Oni’s are believed to be the reason for setbacks.",
+          "An Oni possesses beastly characteristics and moves slowly because of its size.",
+          "An Oni is powerful despite its speed and has an in-your-face nature."
+        ]
+      },
+      {
+        "title": "Okame Tattoos",
+        "image": "path",
+        "description": [
+          "Okame is a religious figure in Japan.",
+          "She is considered a Goddess of good fortune, happiness, and mirth. eastly characteristics and moves slowly because of its size.",
+          "You will frequently hear the word “mirth” associated with Okame, which means someone has a glad spirit and an easy laugh."
+        ]
+      },
+      {
+        "title": "Kappa Tattoos",
+        "image": "path",
+        "description": [
+          "Being part of the Yokai family, the Kappa is a creature found in Japanese folklore.",
+          "Kappas are bizarre in their features and have a hole in their head filled with water.",
+          "The Kappa will reciprocate but also spilling all of their secrets. A Kappa will be internally grateful if someone refills the water, and for that, they gained a companion."
+        ]
+      }
+    ]
+  }
+}

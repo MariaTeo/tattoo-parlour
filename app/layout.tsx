@@ -1,3 +1,4 @@
+import React from 'react';
 import { ReactNode } from 'react';
 
 interface AppInterface {
@@ -12,6 +13,10 @@ const Base = ({ children }: AppInterface) => {
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1.0'
+        />
+        <meta
+          name='description'
+          content='Find out more about tebari technique and japanese tattoo styles'
         />
       </head>
 
