@@ -19,7 +19,6 @@ const Base = ({ children }: AppInterface) => {
           content='Find out more about tebari technique and japanese tattoo styles'
         />
       </head>
-
       <body>{children}</body>
     </html>
   );
