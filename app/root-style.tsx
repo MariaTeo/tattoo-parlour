@@ -5,7 +5,7 @@ import { useStyledComponentsRegistry } from '../lib';
 import { useServerInsertedHTML } from 'next/navigation';
 import type { ReactNode } from 'react';
 
-const RootStyleRegistry = ({ children }: { children: ReactNode }) => {
+const RootStyleRegistry = ({ children }: { children: JSX.Element }) => {
   const [StyledComponentsRegistry, styledComponentsFlushEffect] =
     useStyledComponentsRegistry();
 

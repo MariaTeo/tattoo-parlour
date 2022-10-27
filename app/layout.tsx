@@ -4,7 +4,7 @@ import React from 'react';
 import type { ReactNode } from 'react';
 import RootStyleRegistry from './root-style';
 
-const RootLayout = ({ children }: { children: ReactNode }) => {
+const RootLayout = ({ children }: { children: JSX.Element }) => {
   return (
     <html>
       <head>
