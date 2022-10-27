@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { Text } from '../component';
 
@@ -48,6 +49,7 @@ const Home = async () => {
   return (
     <div>
       <h1>Tattoo Parlour</h1>
+
       {home.homeImageList.map(({ title, description }) => {
         return (
           <div key={title}>
