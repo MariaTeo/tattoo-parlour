@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import type { ReactNode } from 'react';
+import type { ReactElement } from 'react';
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
 const useStyledComponentsRegistry = () => {
@@ -13,9 +13,13 @@ const useStyledComponentsRegistry = () => {
     return <>{styles}</>;
   };
 
-  const StyledComponentsRegistry = ({ children }: { children: ReactNode }) => (
+  const StyledComponentsRegistry = ({
+    children,
+  }: {
+    children: JSX.Element;
+  }) => (
     <StyleSheetManager sheet={styledComponentsStyleSheet.instance}>
-      {children as ReactNode | null}
+      {children as ReactElement}
     </StyleSheetManager>
   );
 
