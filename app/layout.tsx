@@ -1,11 +1,13 @@
+'use client';
+
 import React from 'react';
-import { ReactNode } from 'react';
+import RootStyleRegistry from './root-style';
 
 interface AppInterface {
-  children: ReactNode;
+  children: JSX.Element;
 }
 
-const Base = ({ children }: AppInterface) => {
+const RootLayout = ({ children }: AppInterface) => {
   return (
     <html>
       <head>
@@ -19,9 +21,11 @@ const Base = ({ children }: AppInterface) => {
           content='Find out more about tebari technique and japanese tattoo styles'
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <RootStyleRegistry>{children}</RootStyleRegistry>
+      </body>
     </html>
   );
 };
 
-export default Base;
+export default RootLayout;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Text } from '../component';
 
 interface HomeImageList {
   title: string;
@@ -37,22 +38,22 @@ const getTattooData = async () => {
       'https://raw.githubusercontent.com/mariateo/tattoo-parlour/main/tattoo-parlour.data.json'
     )
   ).json();
-  return { props };
+  return props;
 };
 
 const Home = async () => {
-  const data = await getTattooData();
-  const { home } = data.props;
+  const props = await getTattooData();
+  const { home, title, logo, navMenu } = props;
 
   return (
     <div>
-      <h1>Welcome to news Next js v13</h1>
+      <h1>Tattoo Parlour</h1>
       {home.homeImageList.map(({ title, description }) => {
         return (
-          <div>
-            <h2>{title}</h2>
-            {description.map((el) => {
-              return <div>{el}</div>;
+          <div key={title}>
+            <Text>{title}</Text>
+            {description.map((el, k) => {
+              return <div key={k}>{el}</div>;
             })}
           </div>
         );
