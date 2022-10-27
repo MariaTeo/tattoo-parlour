@@ -1,10 +1,11 @@
 'use client';
 
 import React from 'react';
+import type { ReactNode } from 'react';
 import RootStyleRegistry from './root-style';
 
 interface AppInterface {
-  children: JSX.Element;
+  children: ReactNode;
 }
 
 const RootLayout = ({ children }: AppInterface) => {
