@@ -1,10 +1,8 @@
-'use client';
-
 import React from 'react';
 import type { ReactNode } from 'react';
 import RootStyleRegistry from './root-style';
 
-const RootLayout = ({ children }: { children: JSX.Element }) => {
+const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html>
       <head>
