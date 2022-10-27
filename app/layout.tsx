@@ -4,11 +4,7 @@ import React from 'react';
 import type { ReactNode } from 'react';
 import RootStyleRegistry from './root-style';
 
-interface AppInterface {
-  children: ReactNode;
-}
-
-const RootLayout = ({ children }: AppInterface) => {
+const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html>
       <head>

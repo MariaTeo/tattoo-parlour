@@ -15,7 +15,7 @@ const useStyledComponentsRegistry = () => {
 
   const StyledComponentsRegistry = ({ children }: { children: ReactNode }) => (
     <StyleSheetManager sheet={styledComponentsStyleSheet.instance}>
-      {children}
+      {children as ReactNode}
     </StyleSheetManager>
   );
 
