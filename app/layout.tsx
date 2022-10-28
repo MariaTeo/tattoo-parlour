@@ -1,6 +1,7 @@
 import React from 'react';
 import type { ReactNode } from 'react';
 import RootStyleRegistry from './root-style';
+import { Global } from '@c/atom';
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
@@ -17,6 +18,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
         />
       </head>
       <body>
+        <Global font='Oswald' />
         <RootStyleRegistry>{children}</RootStyleRegistry>
       </body>
     </html>
