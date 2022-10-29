@@ -4,7 +4,7 @@ import RootStyleRegistry from './root-style';
 import { Global } from '@c/atom';
 import Theme from '@c/theme/theme';
 
-const RootLayout = ({ children }: { children: ReactNode }) => {
+const RootLayout = ({ children }: { children: JSX.Element }) => {
   return (
     <html>
       <head>
