@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import { Anchor } from '@c/atom';
+import { Nav } from '@c/molecule';
 import React from 'react';
 import { Text } from '../component';
 
@@ -12,12 +13,6 @@ interface HeroBottomImageList {
   description: string[];
 }
 
-interface NavMenu {
-  content: string;
-  path: string;
-  title: string;
-}
-
 interface Home {
   homeHeroTitle: string;
   homeHeroSubTitle: string;
@@ -26,10 +21,20 @@ interface Home {
   homeImageList: HomeImageList[];
 }
 
+interface NavMenuLinkList {
+  content: string;
+  path: string;
+  title: string;
+}
+interface NavMenu {
+  title?: string;
+  logo?: string;
+  navMenuLinks?: NavMenuLinkList[];
+}
 interface Data {
   title: string;
   logo: string;
-  navMenu: NavMenu[];
+  navMenu: NavMenu;
   home: Home;
 }
 
@@ -48,7 +53,7 @@ const Home = async () => {
 
   return (
     <div>
-      <h1>Tattoo Parlour</h1>
+      <Nav navMenu={navMenu} />
 
       {home.homeImageList.map(({ title, description }) => {
         return (

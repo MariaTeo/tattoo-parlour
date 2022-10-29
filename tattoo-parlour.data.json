@@ -22,19 +22,19 @@
   },
   "home": {
     "homeHeroTitle": "The art of tattooing",
-    "homeHeroSubTitle": "The art of tattooing",
-    "heroImage": "The tools of tebori may seem primitive compared to modern tattoo machines, but the principle was the same",
+    "homeHeroSubTitle": "The tools of tebori may seem primitive compared to modern tattoo machines, but the principle was the same",
+    "heroImage": "",
     "heroBottomImageList": [
       {
-        "image": "path",
+        "image": "/asset/image/heroBottomImageList/hand.jpeg",
         "description": "Tebori is the traditional Japanese method of hand tattooing that dates back to the 17th century in Japan, specifically from the Edo era, between 1600 and 1868."
       },
       {
-        "image": "path",
+        "image": "/asset/image/heroBottomImageList/poked.jpeg",
         "description": "Literally 'hand-carved' tattoos. Artists used a slender bamboo or metal tool with a needle grouping attached to the tip to manually push ink beneath the top layers of skin, leaving a permanent mark for either decoration or punishment."
       },
       {
-        "image": "path",
+        "image": "/asset/image/heroBottomImageList/tattoo.jpeg",
         "description": "Literally 'hand-carved' tattoos. Artists used the rods to manually push ink beneath the top layers of skin, leaving a permanent mark for either decoration or punishment."
       }
     ],
@@ -42,7 +42,7 @@
     "homeImageList": [
       {
         "title": "Oni Mask Tattoos",
-        "image": "path",
+        "image": "/asset/image/homeImageList/oni-mask.png",
         "description": [
           "A synonym for an Oni mask would be that of demon whose origin is of a Hindu-Buddhist belief system.",
           "Oni’s are believed to be the reason for setbacks.",
@@ -52,7 +52,7 @@
       },
       {
         "title": "Okame Tattoos",
-        "image": "path",
+        "image": "/asset/image/homeImageList/okame.png",
         "description": [
           "Okame is a religious figure in Japan.",
           "She is considered a Goddess of good fortune, happiness, and mirth. eastly characteristics and moves slowly because of its size.",
@@ -61,7 +61,7 @@
       },
       {
         "title": "Kappa Tattoos",
-        "image": "path",
+        "image": "/asset/image/homeImageList/kappa.png",
         "description": [
           "Being part of the Yokai family, the Kappa is a creature found in Japanese folklore.",
           "Kappas are bizarre in their features and have a hole in their head filled with water.",
