@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import type { ReactNode } from 'react';
 import RootStyleRegistry from './root-style';
 import { Global } from '@c/atom';
@@ -18,7 +18,9 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
       <body>
         <Global font='Oswald' />
         <RootStyleRegistry>
-          <Theme>{children}</Theme>
+          <Theme>
+            <Fragment>{children}</Fragment>
+          </Theme>
         </RootStyleRegistry>
       </body>
     </html>

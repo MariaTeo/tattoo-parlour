@@ -1,6 +1,6 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import type { ReactNode, Children } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 const theme = {
@@ -14,7 +14,7 @@ const theme = {
 };
 
 interface ITheme {
-  children: React.ReactElement | ReactNode;
+  children: JSX.Element;
 }
 
 const Theme = ({ children }: ITheme) => {
