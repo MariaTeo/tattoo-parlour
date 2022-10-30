@@ -19,7 +19,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
         <Global font='Oswald' />
         <RootStyleRegistry>
           <Theme>
-            <Fragment>{children}</Fragment>
+            <>{children}</>
           </Theme>
         </RootStyleRegistry>
       </body>
