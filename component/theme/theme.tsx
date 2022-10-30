@@ -14,7 +14,7 @@ const theme = {
 };
 
 interface ITheme {
-  children: JSX.Element;
+  children: JSX.Element | ReactNode;
 }
 
 const Theme = ({ children }: ITheme) => {
