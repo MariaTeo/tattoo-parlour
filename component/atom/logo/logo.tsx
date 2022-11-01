@@ -4,7 +4,7 @@ import * as S from './logo.style';
 import type * as T from './logo.type';
 
 const Logo = ({ imagePath, altLogo }: T.Logo) => {
-  return <S.Logo aria-label={altLogo} imagePath={imagePath} />;
+  return <S.Logo alt={altLogo} src={imagePath} />;
 };
 
 export default Logo;
