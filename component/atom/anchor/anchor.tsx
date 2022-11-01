@@ -2,11 +2,14 @@
 
 import * as S from './anchor.style';
 import type * as T from './anchor.type';
+import Text from '../text/text';
 
-const Anchor = ({ children, title, href }: T.Anchor) => {
+const Anchor = ({ children, title, href, color = 'dark' }: T.Anchor) => {
   return (
     <S.Anchor title={title} href={href}>
-      {children}
+      <Text color={color} as='h3'>
+        {children}
+      </Text>
     </S.Anchor>
   );
 };

@@ -14,19 +14,12 @@ const sizeMapMobile = {
   h3: 16,
 };
 
-const colorMap = {
-  milanoRed: 'milanoRed',
-  cupid: 'cupid',
-  rusticRed: 'rusticRed',
-  mercury: 'mercury',
-  light: 'light',
-  dark: 'dark',
-};
-
 export const Text = styled.h1<T.StyleText>`
   color: red;
-  ${({ color = 'mercury', theme }) =>
-    color ? `color: ${theme.color[color]};` : ``}
+  ${({ color = 'dark', as, theme }) =>
+    as === 'p'
+      ? `color: ${theme.color.dark};`
+      : `color: ${theme.color[color]};`}
   ${({ as = 'p' }) => (as ? `font-size: ${sizeMapMobile[as] / 16}rem;` : ``)}
 
   @media screen and (min-width: 768px) {
