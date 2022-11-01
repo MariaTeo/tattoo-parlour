@@ -50,7 +50,7 @@ const getTattooData = async () => {
 
 const Home = async () => {
   const props = await getTattooData();
-  const { home, title, logo, navMenu } = props;
+  const { home, navMenu } = props;
 
   return (
     <div>

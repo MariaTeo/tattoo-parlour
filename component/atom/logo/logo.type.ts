@@ -1,4 +1,4 @@
 export interface Logo {
-  imagePath: string | undefined;
+  logo?: string | undefined;
   altLogo?: string;
 }

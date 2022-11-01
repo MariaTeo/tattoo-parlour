@@ -1,0 +1,163 @@
+{
+  "navMenu": {
+    "title": "Tattoo Parlour",
+    "logo": "/asset/image/logo.png",
+    "altLogo": "Tattoo Parlour logo image of the tebori technique or hand poked tattooing.",
+    "navMenuLinks": [
+      {
+        "content": "Home",
+        "path": "/",
+        "title": "This link is taking you to the home page"
+      },
+      {
+        "content": "Artist",
+        "path": "/artists",
+        "title": "This link is taking you to the page where the artists are presented"
+      },
+      {
+        "content": "Portfolio",
+        "path": "/portfolio",
+        "title": "This link is taking you to the portfolio page where you can find pictures with the work of the artists"
+      }
+    ]
+  },
+  "home": {
+    "homeHeroTitle": "The art of tattooing",
+    "homeHeroSubTitle": "The tools of tebori may seem primitive compared to modern tattoo machines, but the principle was the same",
+    "heroImage": "",
+    "heroBottomImageList": [
+      {
+        "image": "/asset/image/heroBottomImageList/hand.jpeg",
+        "description": "Tebori is the traditional Japanese method of hand tattooing that dates back to the 17th century in Japan, specifically from the Edo era, between 1600 and 1868."
+      },
+      {
+        "image": "/asset/image/heroBottomImageList/poked.jpeg",
+        "description": "Literally 'hand-carved' tattoos. Artists used a slender bamboo or metal tool with a needle grouping attached to the tip to manually push ink beneath the top layers of skin, leaving a permanent mark for either decoration or punishment."
+      },
+      {
+        "image": "/asset/image/heroBottomImageList/tattoo.jpeg",
+        "description": "Literally 'hand-carved' tattoos. Artists used the rods to manually push ink beneath the top layers of skin, leaving a permanent mark for either decoration or punishment."
+      }
+    ],
+    "homeTitle": "Tattoo designs and meaning",
+    "homeImageList": [
+      {
+        "title": "Oni Mask Tattoos",
+        "image": "/asset/image/homeImageList/oni-mask.png",
+        "description": [
+          "A synonym for an Oni mask would be that of demon whose origin is of a Hindu-Buddhist belief system.",
+          "Oni’s are believed to be the reason for setbacks.",
+          "An Oni possesses beastly characteristics and moves slowly because of its size.",
+          "An Oni is powerful despite its speed and has an in-your-face nature."
+        ]
+      },
+      {
+        "title": "Okame Tattoos",
+        "image": "/asset/image/homeImageList/okame.png",
+        "description": [
+          "Okame is a religious figure in Japan.",
+          "She is considered a Goddess of good fortune, happiness, and mirth. eastly characteristics and moves slowly because of its size.",
+          "You will frequently hear the word “mirth” associated with Okame, which means someone has a glad spirit and an easy laugh."
+        ]
+      },
+      {
+        "title": "Kappa Tattoos",
+        "image": "/asset/image/homeImageList/kappa.png",
+        "description": [
+          "Being part of the Yokai family, the Kappa is a creature found in Japanese folklore.",
+          "Kappas are bizarre in their features and have a hole in their head filled with water.",
+          "The Kappa will reciprocate but also spilling all of their secrets. A Kappa will be internally grateful if someone refills the water, and for that, they gained a companion."
+        ]
+      }
+    ]
+  },
+  "portfolio": [
+    {
+      "alt": "A picture with the artist performing the traditional tattooing technique on a man's shoulder",
+      "imagePath": "/image/portfolio/ryugen.png",
+      "title": "Shoulder piece",
+      "content": "The artist doing a koi sleeve. this happened at Calgary Tattoo Show!!",
+      "artistName": "Ryugen"
+    },
+    {
+      "alt": "A black and white picture with a full back tattoo of Kokuzo-Bosatsu on a man's back",
+      "imagePath": "/image/portfolio/ryugen2.png",
+      "title": "Kokuzo-Bosatsu back piece",
+      "content": "Ryugen, specializes in traditional Japanese imagery --colorful, cartoon-like forms inspired by nature, religious iconography and the country's famous 'ukiyo-e' wood block prints.",
+      "artistName": "Ryugen"
+    },
+    {
+      "alt": "A colorful full back and thights dragon tattoo on a man",
+      "imagePath": "/image/portfolio/ryugen3.png",
+      "title": "Dragon back piece",
+      "content": "He is one of a small number of Japanese artists still practicing the ancient tradition of 'tebori' tattoos.",
+      "artistName": "Ryugen"
+    },
+    {
+      "alt": "A black tattoo on side of wribs of a man ",
+      "imagePath": "/image/portfolio/hiroshi1.png",
+      "title": "Side pieces",
+      "content": "Horiyoshi III is a horishi (tattoo artist), specializing in Japanese traditional full-body tattoos, or 'suits', called Irezumi or Horimono.",
+      "artistName": "Horiyoshi III"
+    },
+    {
+      "alt": "A black full back tattoo on a man with many many details",
+      "imagePath": "/image/portfolio/hiroshi2.png",
+      "title": "Full back piece",
+      "content": "Horiyoshi III is the second tattooist be granted that honorific title, which passes from master to apprentice. The tattooist affixation Hori means to engrave or 'to carve'.",
+      "artistName": "Horiyoshi III"
+    },
+    {
+      "alt": "A colorful full body tattoo on a man with a dragon, a leopard, a phoenix and other symbols",
+      "imagePath": "/image/portfolio/hiroshi3.png",
+      "title": "Full body piece",
+      "content": "Horiyoshi feels responsible for keeping the classic repertoire alive, 'one prick at a time.'",
+      "artistName": "Horiyoshi III"
+    },
+    {
+      "alt": "A colorful full back and thights dragon tattoo on a man",
+      "imagePath": "/image/portfolio/jen1.png",
+      "title": "Koi fish sleeve",
+      "content": "His specialties are Oriental body suit and realistic portraits in both color and black & gray. ",
+      "artistName": "Jess Yen, aka Horiyen"
+    },
+    {
+      "alt": "A colorful full back and thights dragon tattoo on a man",
+      "imagePath": "/image/portfolio/jen2.png",
+      "title": "Dragon and koi sleeve",
+      "content": "He is known as a master of New School Oriental art style where you find elements of realism and materialism in his tattoo. ",
+      "artistName": "Jess Yen, aka Horiyen"
+    },
+    {
+      "alt": "A colorful full back and thights dragon tattoo on a man",
+      "imagePath": "/image/portfolio/jen3.png",
+      "title": "Dragon sleeve",
+      "content": "His art brings a new realism to the culture and stories of Asian traditions.",
+      "artistName": "Jess Yen, aka Horiyen"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Jess Yen, aka Horiyen",
+      "instagram": "",
+      "description": "From humble beginnings in Taiwan, Jess Yen has grown to be an internationally known master of the new school of oriental art. Under his touch, the creatures of Japanese and Chinese mythology flow with life, alive with detail, shadow and light.",
+      "artistImagePath": "/image/artists/jess-yen.png",
+      "quote": "When I use the needle and ink to create art on skin, the art becomes a living thing.",
+      "quoteSource": false
+    },
+    {
+      "name": "Horiyoshi 3",
+      "instagram": "",
+      "description": " Muramatsu bestowed this title upon Nakano in 1971. He restricts his motifs to the classical repertoire of the vast variety of traditional Japanese stories and designs: peonies, koi, dragons, tenyo (she-angels), etc.",
+      "quote": "The creatures I draw only come alive on somebody's skin. This is why I never show my designs as so-called art. I draw simply for fun and to have samples to show my clients so they can pick a new design. The creatures depicted take the person's breath away once they are on his or her skin — and then the two start breathing together, in unison. Human history alters the look of the animals and plants I paint, and when the person wearing them dies, so too do they.",
+      "quoteSource": "Horiyoshi III, Words to Live By, The Japan Times Online",
+      "artistImagePath": "/image/artists/horiyosho-III.png"
+    },
+    {
+      "name": "Ryugen",
+      "instagram": "",
+      "description": "Ryugen's instruments, which he keeps in a simple fabric pouch, differ little from these centuries-old tools, although he uses disposable needle tips for the sake of hygiene. Demonstrating his technique, he rests one of the rods along the crease of his thumb before moving it in a repetitive, vigorous action -- a sort of digging motion.",
+      "quote": "From a young age, I was interested in history. And I particularly like the Edo period, which was when these tattoo design was developed. I'm not religious, but I like the designs of Buddhism, the Edo period and samurai. The way I do it is the same as a machine, the needles are disposable and I wear gloves. But people think that tebori is dirty, or not safe, because it's very primitive."
+    }
+  ]
+}
