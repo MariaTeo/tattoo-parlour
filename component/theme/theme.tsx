@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components';
 const theme = {
   color: {
     milanoRed: '#ad0e09',
+    cupid: '#facac8',
     rusticRed: '#4f0404',
     mercury: '#e6e6e6',
     light: '#fff',

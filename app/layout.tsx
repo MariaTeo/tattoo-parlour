@@ -6,7 +6,7 @@ import Theme from '@c/theme/theme';
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <html>
+    <html lang='en'>
       <head>
         <title>Welcome to Tattoo Parlour</title>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
