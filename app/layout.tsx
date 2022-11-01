@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import type { ReactNode } from 'react';
 import RootStyleRegistry from './root-style';
 import { Global } from '@c/atom';
