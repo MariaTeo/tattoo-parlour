@@ -11,7 +11,7 @@ const Nav = ({ navMenu, children }: T.Nav) => {
   return (
     <Flex nav justify='space-between' align='center'>
       <Flex gap={16} align='center' padding={[8]}>
-        <Logo altLogo={altLogo} imagePath={logo} />
+        <Logo altLogo={altLogo} logo={logo} />
         <Text as='h1' color='mercury'>
           {title}
         </Text>
