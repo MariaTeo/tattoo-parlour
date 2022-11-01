@@ -2,6 +2,7 @@
   "navMenu": {
     "title": "Tattoo Parlour",
     "logo": "image/path",
+    "altLogo": "Tattoo Parlour logo image of the tebori technique or hand poked tattooing.",
     "navMenuLinks": [
       {
         "content": "Home",

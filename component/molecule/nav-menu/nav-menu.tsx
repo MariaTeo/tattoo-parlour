@@ -7,15 +7,15 @@ import { Anchor } from '@c/atom';
 
 const Nav = ({ navMenu, children }: T.Nav) => {
   console.log(navMenu, 'show me');
-  const { logo, title, navMenuLinks } = navMenu;
+  const { logo, altLogo, title, navMenuLinks } = navMenu;
   return (
     <Flex nav justify='space-between' align='center'>
       <Flex gap={16} align='center' padding={[8]}>
-        <Logo imagePath={logo} />
-        <Text>{title}</Text>
+        <Logo altLogo={altLogo} imagePath={logo} />
+        <Text as='h1'>{title}</Text>
       </Flex>
 
-      <Flex gap={16} padding={[8]}>
+      <Flex gap={16} padding={[8, 16]}>
         {navMenuLinks?.map(({ content, path, title }, key) => {
           return (
             <Anchor href={path} title={title} key={key}>

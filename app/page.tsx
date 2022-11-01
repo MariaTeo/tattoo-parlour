@@ -32,6 +32,7 @@ interface NavMenu {
   navMenuLinks?: NavMenuLinkList[];
 }
 interface Data {
+  altLogo?: string;
   title: string;
   logo: string;
   navMenu: NavMenu;

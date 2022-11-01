@@ -8,6 +8,7 @@ interface NavMenuLinkList {
 interface NavMenu {
   title?: string;
   logo?: string;
+  altLogo?: string;
   navMenuLinks?: NavMenuLinkList[];
 }
 
