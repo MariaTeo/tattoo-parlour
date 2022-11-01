@@ -12,13 +12,15 @@ const Nav = ({ navMenu, children }: T.Nav) => {
     <Flex nav justify='space-between' align='center'>
       <Flex gap={16} align='center' padding={[8]}>
         <Logo altLogo={altLogo} imagePath={logo} />
-        <Text as='h1'>{title}</Text>
+        <Text as='h1' color='mercury'>
+          {title}
+        </Text>
       </Flex>
 
       <Flex gap={16} padding={[8, 16]}>
         {navMenuLinks?.map(({ content, path, title }, key) => {
           return (
-            <Anchor href={path} title={title} key={key}>
+            <Anchor color='mercury' href={path} title={title} key={key}>
               {content}
             </Anchor>
           );
