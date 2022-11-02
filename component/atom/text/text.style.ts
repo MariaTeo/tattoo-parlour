@@ -9,8 +9,8 @@ const sizeMap = {
 };
 const sizeMapMobile = {
   p: 14,
-  h1: 24,
-  h2: 20,
+  h1: 20,
+  h2: 18,
   h3: 16,
 };
 
