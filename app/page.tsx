@@ -50,12 +50,10 @@ const getTattooData = async () => {
 
 const Home = async () => {
   const props = await getTattooData();
-  const { home, navMenu } = props;
+  const { home } = props;
 
   return (
     <div>
-      <Nav navMenu={navMenu} />
-
       {home.homeImageList.map(({ title, description }) => {
         return (
           <div key={title}>

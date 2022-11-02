@@ -12,13 +12,8 @@ const getTattooData = async () => {
 };
 
 const Artists = async () => {
-  const props = await getTattooData();
-  const { navMenu } = props;
-
   return (
     <>
-      <Nav navMenu={navMenu} />
-
       <h1>This is the artists page</h1>
       <Anchor title='go back home' href='/'>
         Go back home
