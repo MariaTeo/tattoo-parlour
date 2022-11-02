@@ -8,7 +8,7 @@ import type * as T from './logo.type';
 const Logo = ({ altLogo, logo }: T.Logo) => {
   return (
     <Anchor title='Go to the home page' href='/'>
-      <Image
+      <S.Logo
         alt={altLogo || 'The logo of the page'}
         src='/asset/image/logo.png'
         width='24'

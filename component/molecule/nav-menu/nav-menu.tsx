@@ -20,7 +20,7 @@ const Nav = ({ navMenu, children }: T.Nav) => {
       <Flex gap={16} padding={[8, 16]}>
         {navMenuLinks?.map(({ content, path, title }, key) => {
           return (
-            <Anchor color='mercury' href={path} title={title} key={key}>
+            <Anchor color='mercury' href={path} title={title} link key={key}>
               {content}
             </Anchor>
           );

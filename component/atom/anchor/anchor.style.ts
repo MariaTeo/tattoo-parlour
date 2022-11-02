@@ -1,6 +1,10 @@
 import styled from 'styled-components';
+import type * as T from './anchor.type';
 
-export const Anchor = styled.a`
+const getDisplayAndAlign = ({ link }: T.StyleAnchor) =>
+  !link && 'display: flex; align-items: center;';
+
+export const Anchor = styled.a<T.StyleAnchor>`
   text-decoration: none;
-  color: pink;
+  ${getDisplayAndAlign}
 `;

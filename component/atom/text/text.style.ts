@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import type * as T from './text.type';
 
 const sizeMap = {
-  p: 14,
+  p: 16,
   h1: 36,
   h2: 28,
-  h3: 16,
+  h3: 20,
 };
 const sizeMapMobile = {
   p: 12,
