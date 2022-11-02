@@ -1,6 +1,5 @@
 'use client';
 
-import * as S from './nav-menu.style';
 import type * as T from './nav-menu.type';
 import { Logo, Text, Flex } from '../../atom';
 import { Anchor } from '@c/atom';
@@ -20,7 +19,7 @@ const Nav = ({ navMenu, children }: T.Nav) => {
       <Flex gap={16} padding={[8, 16]}>
         {navMenuLinks?.map(({ content, path, title }, key) => {
           return (
-            <Anchor color='mercury' href={path} title={title} link key={key}>
+            <Anchor key={key} color='mercury' href={path} title={title} link>
               {content}
             </Anchor>
           );
