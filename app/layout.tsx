@@ -5,23 +5,6 @@ import { Global } from '@c/atom';
 import Theme from '@c/theme/theme';
 import { Nav } from '@c/molecule';
 
-interface NavMenuLinkList {
-  content: string;
-  path: string;
-  title: string;
-}
-
-interface NavMenu {
-  title?: string;
-  logo?: string;
-  altLogo?: string;
-  navMenuLinks?: NavMenuLinkList[];
-}
-
-interface Data {
-  navMenu: NavMenu;
-}
-
 const getData = async () => {
   const props = await (
     await fetch(
@@ -36,7 +19,6 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
   const props = await getData();
   const { navMenu } = props;
 
-  console.log(props, 'layout?');
   return (
     <html lang='en'>
       <head>

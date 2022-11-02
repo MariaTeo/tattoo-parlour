@@ -24,7 +24,7 @@
   "home": {
     "homeHeroTitle": "The art of tattooing",
     "homeHeroSubTitle": "The tools of tebori may seem primitive compared to modern tattoo machines, but the principle was the same",
-    "heroImage": "",
+    "heroImage": "/asset/hero-image.jpeg",
     "heroBottomImageList": [
       {
         "image": "/asset/image/heroBottomImageList/hand.jpeg",
