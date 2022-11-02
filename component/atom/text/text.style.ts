@@ -8,7 +8,7 @@ const sizeMap = {
   h3: 16,
 };
 const sizeMapMobile = {
-  p: 14,
+  p: 12,
   h1: 20,
   h2: 18,
   h3: 16,
@@ -16,10 +16,8 @@ const sizeMapMobile = {
 
 export const Text = styled.h1<T.StyleText>`
   color: red;
-  ${({ color = 'dark', as, theme }) =>
-    as === 'p'
-      ? `color: ${theme.color.dark};`
-      : `color: ${theme.color[color]};`}
+  ${({ color = 'dark', theme }) =>
+    color ? `color: ${theme.color[color]};` : ``}
   ${({ as = 'p' }) => (as ? `font-size: ${sizeMapMobile[as] / 16}rem;` : ``)}
 
   @media screen and (min-width: 768px) {
