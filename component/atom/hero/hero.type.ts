@@ -5,7 +5,7 @@ export interface HomeImageList {
 
 export interface HeroBottomImageList {
   image: string;
-  description: string[];
+  description: string;
 }
 
 export interface HomeContent {
