@@ -32,7 +32,11 @@ export const Flex = styled.div<T.FlexStyle>`
 
   ${({ theme, nav }) =>
     nav ? `background-color: ${theme.color.rusticRed};` : ''};
-  ${({ hero }) => (hero ? ` padding: 40px;` : '')};
+  ${({ hero }) => (hero ? ` padding: 37px;` : '')};
+
+  @media screen and (min-width: 300px) {
+    ${({ home }) => (home ? ` flex-direction: column;` : '')};
+  }
 
   @media screen and (min-width: 410px) {
     ${({ hero }) => (hero ? ` padding: 42px;` : '')};
