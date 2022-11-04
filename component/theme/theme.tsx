@@ -1,6 +1,5 @@
 'use client';
 
-import type { ReactNode, Children } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 const theme = {
@@ -13,6 +12,7 @@ const theme = {
     mercury: '#e6e6e6',
     light: '#fff',
     dark: '#000',
+    bgColor: '#e6d4d3',
   },
 };
 

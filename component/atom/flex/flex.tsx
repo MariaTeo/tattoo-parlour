@@ -12,10 +12,14 @@ const Flex = ({
   align,
   justify,
   hero,
+  width,
+  home,
 }: T.Flex) => {
   return (
     <S.Flex
+      home={home}
       hero={hero}
+      width={width}
       justify={justify}
       vertical={vertical}
       nav={nav}
