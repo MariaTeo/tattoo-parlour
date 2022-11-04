@@ -1,3 +1,5 @@
+<a href="https://app.daily.dev/Teodora"><img src="https://api.daily.dev/devcards/0aed6f8297a447e7908584a1aad969d0.png?r=8e1" width="400" alt="Maria's Dev Card"/></a>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
