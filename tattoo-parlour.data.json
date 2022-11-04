@@ -1,10 +1,9 @@
 {
   "navMenu": {
     "title": "Tattoo Parlour",
-    "logo": "image/path",
+    "logo": "/asset/image/logo.png",
     "altLogo": "Tattoo Parlour logo image of the tebori technique or hand poked tattooing.",
-    "navMenuLinks": [
-      {
+    "navMenuLinks": [{
         "content": "Home",
         "path": "/",
         "title": "This link is taking you to the home page"
@@ -25,23 +24,24 @@
     "homeHeroTitle": "The art of tattooing",
     "homeHeroSubTitle": "The tools of tebori may seem primitive compared to modern tattoo machines, but the principle was the same",
     "heroImage": "/asset/hero-image.jpeg",
-    "heroBottomImageList": [
-      {
+    "heroBottomImageList": [{
         "image": "/asset/image/heroBottomImageList/hand.jpeg",
+        "alt": "Tebori technique performed on a leg and it is a black tattoo only.",
         "description": "Tebori is the traditional Japanese method of hand tattooing that dates back to the 17th century in Japan, specifically from the Edo era, between 1600 and 1868."
       },
       {
         "image": "/asset/image/heroBottomImageList/poked.jpeg",
+        "alt": "Tebori technique performed on an arm and it is a balck tattoo only with some flowers.",
         "description": "Literally 'hand-carved' tattoos. Artists used a slender bamboo or metal tool with a needle grouping attached to the tip."
       },
       {
         "image": "/asset/image/heroBottomImageList/tattoo.jpeg",
-        "description": "Artists used the rods to manually push ink beneath the top layers of skin, leaving a permanent mark for either decoration or punishment."
+        "alt": "Tebori technique performed on a back and it is a colored tattoo of a japanese dragon.",
+        "description": "Literally 'hand-carved' tattoos. Artists used the rods to manually push ink beneath the top layers of skin, leaving a permanent mark for either decoration or punishment."
       }
     ],
     "homeTitle": "Tattoo designs and meaning",
-    "homeImageList": [
-      {
+    "homeImageList": [{
         "title": "Oni Mask Tattoos",
         "image": "/asset/image/homeImageList/oni-mask.png",
         "description": [
@@ -71,8 +71,7 @@
       }
     ]
   },
-  "portfolio": [
-    {
+  "portfolio": [{
       "alt": "A picture with the artist performing the traditional tattooing technique on a man's shoulder",
       "imagePath": "/image/portfolio/ryugen.png",
       "title": "Shoulder piece",
@@ -136,8 +135,7 @@
       "artistName": "Jess Yen, aka Horiyen"
     }
   ],
-  "artists": [
-    {
+  "artists": [{
       "name": "Jess Yen, aka Horiyen",
       "instagram": "",
       "description": "From humble beginnings in Taiwan, Jess Yen has grown to be an internationally known master of the new school of oriental art. Under his touch, the creatures of Japanese and Chinese mythology flow with life, alive with detail, shadow and light.",
