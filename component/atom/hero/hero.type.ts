@@ -5,6 +5,7 @@ export interface HomeImageList {
 
 export interface HeroBottomImageList {
   image: string;
+  alt: string;
   description: string;
 }
 

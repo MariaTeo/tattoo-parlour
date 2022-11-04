@@ -10,6 +10,7 @@ interface HomeImageList {
 
 interface HeroBottomImageList {
   image: string;
+  alt: string;
   description: string;
 }
 

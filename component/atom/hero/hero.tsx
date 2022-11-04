@@ -19,12 +19,15 @@ const Hero = ({ home }: T.Hero) => {
           <Text shadow>{homeHeroSubTitle}</Text>
         </Flex>
       </S.Hero>
-
       <S.FooterHero>
-        {heroBottomImageList.map(({ image, description }, key) => {
+        {heroBottomImageList.map(({ image, description, alt }, key) => {
           return (
             <Flex hero key={key}>
-              <HeroImageList imgUrl={image} description={description} />
+              <HeroImageList
+                imgUrl={image}
+                alt={alt}
+                description={description}
+              />
             </Flex>
           );
         })}
