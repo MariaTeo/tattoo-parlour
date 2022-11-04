@@ -11,9 +11,11 @@ const Flex = ({
   nav,
   align,
   justify,
+  hero,
 }: T.Flex) => {
   return (
     <S.Flex
+      hero={hero}
       justify={justify}
       vertical={vertical}
       nav={nav}

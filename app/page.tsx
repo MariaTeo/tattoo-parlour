@@ -1,4 +1,4 @@
-import { Anchor } from '@c/atom';
+import { Anchor, Hero } from '@c/atom';
 import { Nav } from '@c/molecule';
 import React from 'react';
 import { Text } from '../component';
@@ -10,7 +10,7 @@ interface HomeImageList {
 
 interface HeroBottomImageList {
   image: string;
-  description: string[];
+  description: string;
 }
 
 interface Home {
@@ -52,8 +52,11 @@ const Home = async () => {
   const props = await getTattooData();
   const { home } = props;
 
+  console.log(home);
+
   return (
     <div>
+      <Hero home={home} />
       {home.homeImageList.map(({ title, description }) => {
         return (
           <div key={title}>

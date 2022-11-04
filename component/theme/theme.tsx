@@ -4,6 +4,8 @@ import type { ReactNode, Children } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 const theme = {
+  textShadow:
+    '-1px -1px 0 #e6e6e6, 1px -1px 0 #e6e6e6, -1px 1px 0 #e6e6e6, 1px 1px 0 #e6e6e6,  -1.5px 0 0 #e6e6e6, 1.5px 0 0 #e6e6e6, 0 -1.5px 0 #e6e6e6, 0 1.5px 0 #e6e6e6',
   color: {
     milanoRed: '#ad0e09',
     cupid: '#facac8',

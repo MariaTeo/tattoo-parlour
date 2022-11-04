@@ -26,7 +26,57 @@ export const Flex = styled.div<T.FlexStyle>`
   ${getDirection}
   ${getJustify}
   ${getAlign}
+  position:relative;
 
   ${({ theme, nav }) =>
     nav ? `background-color: ${theme.color.rusticRed};` : ''};
+  ${({ hero }) => (hero ? ` padding: 40px;` : '')};
+
+  @media screen and (min-width: 410px) {
+    ${({ hero }) => (hero ? ` padding: 50px;` : '')};
+  }
+
+  @media screen and (min-width: 450px) {
+    ${({ hero }) => (hero ? ` padding: 55px;` : '')};
+  }
+
+  @media screen and (min-width: 480px) {
+    ${({ hero }) => (hero ? ` padding: 56px;` : '')};
+  }
+
+  @media screen and (min-width: 540px) {
+    ${({ hero }) => (hero ? ` padding: 62px;` : '')};
+  }
+
+  @media screen and (min-width: 610px) {
+    ${({ hero }) => (hero ? ` padding: 70px;` : '')};
+  }
+
+  @media screen and (min-width: 670px) {
+    ${({ hero }) => (hero ? ` padding: 70px;` : '')};
+  }
+
+  @media screen and (min-width: 730px) {
+    ${({ hero }) => (hero ? ` padding: 88px;` : '')};
+  }
+
+  @media screen and (min-width: 875px) {
+    ${({ hero }) => (hero ? ` padding: 105px;` : '')};
+  }
+
+  @media screen and (min-width: 976px) {
+    ${({ hero }) => (hero ? ` padding: 110px;` : '')};
+  }
+
+  @media screen and (min-width: 1010px) {
+    ${({ hero }) => (hero ? ` padding: 130px;` : '')};
+  }
+
+  @media screen and (min-width: 1220px) {
+    ${({ hero }) => (hero ? ` padding: 156px;` : '')};
+  }
+
+  @media screen and (min-width: 1440px) {
+    ${({ hero }) => (hero ? ` padding: 200px;` : '')};
+  }
 `;

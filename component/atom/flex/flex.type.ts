@@ -5,6 +5,7 @@ export interface FlexStyle {
   padding?: number[];
   vertical?: boolean;
   nav?: boolean;
+  hero?: boolean;
   align?: 'start' | 'end' | 'center';
   justify?: 'start' | 'end' | 'center' | 'space-between';
 }
