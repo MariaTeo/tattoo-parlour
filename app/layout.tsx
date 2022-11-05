@@ -3,7 +3,7 @@ import type { ReactNode } from 'react';
 import RootStyleRegistry from './root-style';
 import { Global } from '@c/atom';
 import Theme from '@c/theme/theme';
-import { Nav } from '@c/molecule';
+import { Nav, Footer } from '@c/molecule';
 
 const getData = async () => {
   const props = await (
@@ -36,6 +36,7 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
             <>
               <Nav navMenu={navMenu} />
               {children}
+              <Footer />
             </>
           </Theme>
         </RootStyleRegistry>

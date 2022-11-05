@@ -9,6 +9,7 @@ export { Logo } from './atom';
 export { Text } from './atom';
 export { Pill } from './atom';
 
+export { Footer } from './molecule';
 export { Nav } from './molecule';
 
 export { default as ErrorBoundary } from './error.boundary';

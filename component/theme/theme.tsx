@@ -13,6 +13,7 @@ const theme = {
     light: '#fff',
     dark: '#000',
     bgColor: '#e6d4d3',
+    footerBgColor: '#b3a2a1',
   },
 };
 

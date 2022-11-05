@@ -1,4 +1,5 @@
 export interface Logo {
-  logo?: string | undefined;
+  logo?: string;
   altLogo?: string;
+  footer?: boolean;
 }
