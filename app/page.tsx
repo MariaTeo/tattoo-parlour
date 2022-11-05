@@ -1,10 +1,10 @@
-import { Anchor, Hero } from '@c/atom';
-import { Nav } from '@c/molecule';
 import React from 'react';
-import { Text } from '../component';
+import { Hero, ImageCard, Flex, Text, Pill } from '@c/atom';
 
 interface HomeImageList {
   title: string;
+  alt: string;
+  image: string;
   description: string[];
 }
 
@@ -52,23 +52,29 @@ const getTattooData = async () => {
 const Home = async () => {
   const props = await getTattooData();
   const { home } = props;
-
-  console.log(home);
+  const { homeImageList } = home;
 
   return (
-    <div>
+    <>
       <Hero home={home} />
-      {home.homeImageList.map(({ title, description }) => {
-        return (
-          <div key={title}>
-            <Text>{title}</Text>
-            {description.map((el, k) => {
-              return <div key={k}>{el}</div>;
-            })}
-          </div>
-        );
-      })}
-    </div>
+
+      <Flex gap={32} align='center' vertical justify='center' padding={[32]}>
+        {homeImageList.map(({ title, description, image, alt }, key) => {
+          return (
+            <Flex home width='80%' align='center' key={key} gap={32}>
+              <ImageCard image={image} alt={alt} />
+
+              <Flex align='center' gap={16} vertical>
+                <Pill>{title}</Pill>
+                {description.map((el, key) => {
+                  return <Text key={key}>{el}</Text>;
+                })}
+              </Flex>
+            </Flex>
+          );
+        })}
+      </Flex>
+    </>
   );
 };
 

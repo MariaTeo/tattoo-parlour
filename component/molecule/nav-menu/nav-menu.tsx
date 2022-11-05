@@ -4,13 +4,13 @@ import type * as T from './nav-menu.type';
 import { Logo, Text, Flex } from '../../atom';
 import { Anchor } from '@c/atom';
 
-const Nav = ({ navMenu, children }: T.Nav) => {
-  console.log(navMenu, 'show me');
+const Nav = ({ navMenu }: T.Nav) => {
   const { logo, altLogo, title, navMenuLinks } = navMenu;
   return (
     <Flex nav justify='space-between' align='center'>
       <Flex gap={16} align='center' padding={[8]}>
         <Logo altLogo={altLogo} logo={logo} />
+
         <Text as='h1' color='mercury'>
           {title}
         </Text>

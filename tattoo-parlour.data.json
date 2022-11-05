@@ -44,6 +44,7 @@
     "homeImageList": [{
         "title": "Oni Mask Tattoos",
         "image": "/asset/image/homeImageList/oni-mask.png",
+        "alt": "Traditional Kappa tattoo on the belly and chest, fully covered and colored.",
         "description": [
           "A synonym for an Oni mask would be that of demon whose origin is of a Hindu-Buddhist belief system.",
           "Oni’s are believed to be the reason for setbacks.",
@@ -54,6 +55,7 @@
       {
         "title": "Okame Tattoos",
         "image": "/asset/image/homeImageList/okame.png",
+        "alt": "Traditional Okame tattoo on the shoulder and chest, colored and with flowers.",
         "description": [
           "Okame is a religious figure in Japan.",
           "She is considered a Goddess of good fortune, happiness, and mirth. eastly characteristics and moves slowly because of its size.",
@@ -63,6 +65,7 @@
       {
         "title": "Kappa Tattoos",
         "image": "/asset/image/homeImageList/kappa.png",
+        "alt": "Traditional Kappa tattoo on the belly and chest, fully covered and colored.",
         "description": [
           "Being part of the Yokai family, the Kappa is a creature found in Japanese folklore.",
           "Kappas are bizarre in their features and have a hole in their head filled with water.",

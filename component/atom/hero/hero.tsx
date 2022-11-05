@@ -5,10 +5,9 @@ import type * as T from './hero.type';
 import { Flex, Text, HeroImageList } from '@c/atom';
 
 const Hero = ({ home }: T.Hero) => {
-  console.log(home, '@@');
   const { homeHeroTitle, homeHeroSubTitle, heroImage, heroBottomImageList } =
     home;
-  console.log(heroImage, 'HERO');
+
   return (
     <>
       <S.Hero img={heroImage}>

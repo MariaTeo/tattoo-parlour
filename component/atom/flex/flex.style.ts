@@ -12,6 +12,8 @@ const getJustify = ({ justify }: T.FlexStyle) =>
 const getDirection = ({ vertical }: T.FlexStyle) =>
   vertical && `flex-direction: column;`;
 
+const getWidth = ({ width }: T.FlexStyle) => (width ? `width: ${width};` : '');
+
 const getPadding = ({ padding }: T.FlexStyle) => {
   const arr = Array.isArray(padding) ? padding : padding ? [padding] : [];
   return arr.length
@@ -26,14 +28,19 @@ export const Flex = styled.div<T.FlexStyle>`
   ${getDirection}
   ${getJustify}
   ${getAlign}
-  position:relative;
+  ${getWidth}
 
   ${({ theme, nav }) =>
     nav ? `background-color: ${theme.color.rusticRed};` : ''};
-  ${({ hero }) => (hero ? ` padding: 40px;` : '')};
+  ${({ hero }) => (hero ? ` padding: 37px;` : '')};
+
+  @media screen and (min-width: 300px) {
+    ${({ home }) => (home ? ` flex-direction: column;` : '')};
+  }
 
   @media screen and (min-width: 410px) {
-    ${({ hero }) => (hero ? ` padding: 50px;` : '')};
+    ${({ hero }) => (hero ? ` padding: 42px;` : '')};
+    ${({ home }) => (home ? ` flex-direction: column;` : '')};
   }
 
   @media screen and (min-width: 450px) {
@@ -62,6 +69,7 @@ export const Flex = styled.div<T.FlexStyle>`
 
   @media screen and (min-width: 875px) {
     ${({ hero }) => (hero ? ` padding: 105px;` : '')};
+    ${({ home }) => (home ? ` flex-direction: row;` : '')};
   }
 
   @media screen and (min-width: 976px) {

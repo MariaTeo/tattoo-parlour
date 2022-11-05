@@ -3,6 +3,7 @@ export { Flex } from './flex';
 export { Global } from './global';
 export { Hero } from './hero';
 export { HeroImageList } from './hero-image-list';
-export { Image } from './image';
+export { ImageCard } from './image-card';
 export { Logo } from './logo';
+export { Pill } from './pill';
 export { Text } from './text';

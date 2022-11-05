@@ -30,7 +30,7 @@ export const HeroList = styled.div<T.HeroImageList>`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 12px;
     width: 100%;
     height: 100%;
     text-overflow: ellipsis;

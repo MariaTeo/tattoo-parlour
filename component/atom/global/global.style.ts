@@ -14,6 +14,10 @@ export const Reset = createGlobalStyle<T.Global>`
     height: 100%;
     font-family: ${({ font = 'Oswald' }) => font};
   }
+
+  body{
+    background-color: #ebebeb;
+  }
 `;
 
 export const Font = createGlobalStyle<T.Global>`

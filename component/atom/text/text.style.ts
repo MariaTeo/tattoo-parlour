@@ -23,6 +23,7 @@ const sizeMapMobile = {
 };
 
 export const Text = styled.h1<T.StyleText>`
+  text-align: center;
   ${({ color = 'dark', theme }) =>
     color ? `color: ${theme.color[color]};` : ``}
   ${({ as = 'p' }) => (as ? `font-size: ${sizeMapMobile[as] / 16}rem;` : ``)}
