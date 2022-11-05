@@ -58,7 +58,13 @@ const Home = async () => {
     <>
       <Hero home={home} />
 
-      <Flex gap={32} align='center' vertical justify='center' padding={[32]}>
+      <Flex
+        gap={32}
+        align='center'
+        vertical
+        justify='center'
+        padding={[48, 32]}
+      >
         {homeImageList.map(({ title, description, image, alt }, key) => {
           return (
             <Flex home width='80%' align='center' key={key} gap={32}>
