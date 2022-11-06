@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hero, ImageCard, Flex, Text, Pill } from '@c/atom';
+import { Hero, ImageCard, Flex, Text, Pill, Space } from '@c/atom';
 
 interface HomeImageList {
   title: string;
@@ -80,6 +80,8 @@ const Home = async () => {
           );
         })}
       </Flex>
+
+      <Space height={200} />
     </>
   );
 };

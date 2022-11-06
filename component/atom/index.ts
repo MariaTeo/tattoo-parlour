@@ -6,4 +6,5 @@ export { HeroImageList } from './hero-image-list';
 export { ImageCard } from './image-card';
 export { Logo } from './logo';
 export { Pill } from './pill';
+export { Space } from './space';
 export { Text } from './text';

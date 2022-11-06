@@ -4,6 +4,7 @@ import RootStyleRegistry from './root-style';
 import { Global } from '@c/atom';
 import Theme from '@c/theme/theme';
 import { Nav, Footer } from '@c/molecule';
+import * as S from '@c/atom/layout/layout.style';
 
 const getData = async () => {
   const props = await (
@@ -33,11 +34,11 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
         <Global font='Oswald' />
         <RootStyleRegistry>
           <Theme>
-            <>
+            <S.Layout>
               <Nav navMenu={navMenu} />
               {children}
               <Footer />
-            </>
+            </S.Layout>
           </Theme>
         </RootStyleRegistry>
       </body>

@@ -2,6 +2,7 @@ export { Anchor } from './atom';
 export { Flex } from './atom';
 export { Global } from './atom';
 export { Hero } from './atom';
+export { Space } from './atom';
 export { HeroImageList } from './atom';
 
 export { ImageCard } from './atom';

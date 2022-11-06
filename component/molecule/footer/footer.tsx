@@ -35,6 +35,7 @@ const Footer = () => {
           >
             Book a session
           </Anchor>
+          <Text shadow>&copy; Maria</Text>
         </Flex>
 
         <Flex vertical gap={8}>
@@ -43,7 +44,6 @@ const Footer = () => {
           </Text>
           <Text shadow>Email: maria@wowdop.com</Text>
           <Text shadow>Phone number: 077********</Text>
-          <Text shadow>&copy; Maria</Text>
         </Flex>
         <Logo footer />
       </Flex>
